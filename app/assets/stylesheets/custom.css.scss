@@ -19,6 +19,12 @@ $navbar-default-bg: #1F5B99;
   text-decoration:none;
 }
 
+.navbar-default {
+  color: white;
+  text-shadow: 0.5px 0.5px #E3D87C;
+  font-size: 1.15em;
+}
+
 .center  {
   text-align: center;
 }
@@ -95,8 +101,7 @@ footer ul   {
   float: right;
   list-style: none;
 }
-
-footer ul li   {
+footer ul li {
   float: left;
   margin-left: 15px;
 }
