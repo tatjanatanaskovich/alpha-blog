@@ -1,3 +1,7 @@
-== README
-This is the repository for my Alpha Blog app in Ruby on Rails.
-Production link on Heroku: https://alpha-blog-tatjana.herokuapp.com/
+== Alpha Blog
+This is the repository for my Alpha Blog app made with Ruby on Rails. 
+It is a prototype app for learning Ruby on Rails.
+
+Production link on Heroku: 
+
+https://alpha-blog-tatjana.herokuapp.com/
