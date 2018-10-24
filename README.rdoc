@@ -1,7 +1,16 @@
 == Alpha Blog
-This is the repository for my Alpha Blog app made with Ruby on Rails. 
-It is a prototype app for learning Ruby on Rails.
 
-Production link on Heroku: 
 
-https://alpha-blog-tatjana.herokuapp.com/
+Alpha Blog is a small Ruby on Rails Blogging Web Application where a registered user can write some blog post up to 300 characters, put it in the category and publish it.
+There are 3 types of users:
+1. ADMIN User who has all rights to create, update and delete all articles, categories, and users.
+2. REGULAR registered User who can write, update and delete articles and put them in 1 or more categories and publish them. Regular User can delete only his/her articles, and can't create categories.
+3. GUEST User - a person who visits a blog and can only view all articles and users but can't interact with it before registration.
+
+===Versions:
+
+Ruby: 2.3.4
+
+Rails: 4.2.5
+
+Database: SQLite
