@@ -15,4 +15,3 @@ Rails: 4.2.5
 
 Database: SQLite
 
-
