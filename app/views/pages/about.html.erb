@@ -1,3 +1,36 @@
-<h1>Alpha Blog About Page</h1>
-<p>This is my about page.</p>
-<%= link_to 'Home', root_path %>
+<div class="container-fluid">
+  <div class="row">
+    <div class="page-header">
+      <h2>About Alpha Blog</h2>
+    </div>
+    <blockquote>
+      <p><strong>Alpha Blog</strong> is a small Ruby on Rails Blogging Web Application where a registered user can write some blog post up to 300 characters, put it in the category and publish it.</p> 
+    </blockquote>
+
+    <ul class="list-group">
+
+      <li class="list-group-item list-group-item-info" >
+        <strong>There are three types of users:</strong>
+      </li>
+
+      <li class="list-group-item list-group-item-warning">
+        <strong>Admin User</strong> who has all rights to create, update and delete all articles, categories, and users.
+      </li>
+      
+      <li class="list-group-item list-group-item-warning">
+        <strong>Regular (registered) User</strong> who can write, update and delete articles and put them in 1 or more categories and publish them.
+        <br> Regular User can delete only his/her articles, and can't create categories.
+      </li>
+     
+      <li class="list-group-item list-group-item-warning">
+        <strong>Guest User</strong> - a person who visits a blog and can only view all articles, categories and users.
+      </li>
+    </ul>
+
+    <br><br>
+
+
+
+    <%= link_to 'Back to Home Page', root_path, class: 'btn btn-primary' %>
+  </div>
+</div>
